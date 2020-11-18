@@ -7,7 +7,7 @@ exports[`<Pressure /> should match snapshot 1`] = `
   <div
     className="sliderLabel"
   >
-    Pressure
+    Pressure [ hPa ]
   </div>
   <input
     className="customSlider"

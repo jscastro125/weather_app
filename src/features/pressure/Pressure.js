@@ -11,7 +11,7 @@ export default function Pressure() {
     const pressure = useSelector(selectPressure);
     const dispatch = useDispatch();
     return (
-        <Slider label="Pressure" max={1030} min={970} value={pressure} onChange={(nPressure) => {
+        <Slider label="Pressure [ hPa ]" max={1030} min={970} value={pressure} onChange={(nPressure) => {
             dispatch(set(nPressure))
         }}/>
     );

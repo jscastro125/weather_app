@@ -7,7 +7,7 @@ exports[`<Temperature /> should match snapshot 1`] = `
   <div
     className="sliderLabel"
   >
-    Temperature
+    Temperature [ °C ]
   </div>
   <input
     className="customSlider"
