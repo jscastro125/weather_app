@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Temperature /> should match snapshot 1`] = `
+<div
+  className="sliderContainer"
+>
+  <div
+    className="sliderLabel"
+  >
+    Temperature
+  </div>
+  <input
+    className="customSlider"
+    max={35}
+    min={10}
+    onChange={[Function]}
+    type="range"
+    value={30}
+  />
+  <div
+    className="rangeValue"
+  >
+    <span
+      style={
+        Object {
+          "left": "calc(80% + (-16px))",
+        }
+      }
+    >
+      30
+    </span>
+  </div>
+</div>
+`;

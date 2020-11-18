@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should match snapshot 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="variables-container"
+  >
+    <div
+      className="sliderContainer"
+    >
+      <div
+        className="sliderLabel"
+      >
+        Temperature
+      </div>
+      <input
+        className="customSlider"
+        max={35}
+        min={10}
+        onChange={[Function]}
+        type="range"
+        value={1010}
+      />
+      <div
+        className="rangeValue"
+      >
+        <span
+          style={
+            Object {
+              "left": "calc(4000% + (-800px))",
+            }
+          }
+        >
+          1010
+        </span>
+      </div>
+    </div>
+    <div
+      className="sliderContainer"
+    >
+      <div
+        className="sliderLabel"
+      >
+        Pressure
+      </div>
+      <input
+        className="customSlider"
+        max={1030}
+        min={970}
+        onChange={[Function]}
+        type="range"
+        value={30}
+      />
+      <div
+        className="rangeValue"
+      >
+        <span
+          style={
+            Object {
+              "left": "calc(-1566.6666666666667% + (313.33333333333337px))",
+            }
+          }
+        >
+          30
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="charts-container"
+  >
+    <h3>
+      Amount of rainfall
+    </h3>
+    <div
+      className="recharts-responsive-container"
+      style={
+        Object {
+          "height": 250,
+          "maxHeight": undefined,
+          "minHeight": undefined,
+          "minWidth": undefined,
+          "width": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "display": "none",
+            "height": 0,
+            "position": "absolute",
+            "visibility": "hidden",
+            "width": 0,
+          }
+        }
+      />
+    </div>
+    <h3>
+      Chance of rain
+    </h3>
+    <div
+      className="recharts-responsive-container"
+      style={
+        Object {
+          "height": 250,
+          "maxHeight": undefined,
+          "minHeight": undefined,
+          "minWidth": undefined,
+          "width": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "display": "none",
+            "height": 0,
+            "position": "absolute",
+            "visibility": "hidden",
+            "width": 0,
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

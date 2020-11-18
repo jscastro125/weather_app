@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RainfallAmount /> should match snapshot 1`] = `
+Array [
+  <h3>
+    Amount of rainfall
+  </h3>,
+  <div
+    className="recharts-responsive-container"
+    style={
+      Object {
+        "height": 250,
+        "maxHeight": undefined,
+        "minHeight": undefined,
+        "minWidth": undefined,
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "display": "none",
+          "height": 0,
+          "position": "absolute",
+          "visibility": "hidden",
+          "width": 0,
+        }
+      }
+    />
+  </div>,
+]
+`;
