@@ -24,7 +24,7 @@ export const { setIsLoading, setError, setValue } = rainfallSlice.actions;
 
 export const fetchRainfallAmounts = () => dispatch => {
     dispatch(setIsLoading(true));
-    fetch('http://private-4945e-weather34.apiary-proxy.com/weather34/rain')
+    fetch('https://private-4945e-weather34.apiary-proxy.com/weather34/rain')
         .then(res => res.json())
         .then(data => {
             if(data?.length !== 0) {
